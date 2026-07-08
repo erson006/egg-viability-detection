@@ -227,3 +227,15 @@ M --> N
 | Communication | Wi-Fi |
 | Machine Learning | Transfer Learning |
 | Computer Vision | Image Classification |
+
+---
+
+# 🔒 Source Code Availability
+
+This repository showcases the project's architecture, methodology, mobile application, and AI model performance.
+
+The complete source code, TensorFlow Lite model, Edge Impulse project, datasets, and embedded firmware are kept in a private repository to protect the project's intellectual property.
+
+If you are interested in collaboration, research, commercial licensing, or a live demonstration, please feel free to contact me.
+
+
