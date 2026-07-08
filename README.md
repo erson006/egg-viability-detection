@@ -1,5 +1,21 @@
 # 🥚 Egg Viability Detection System
 
+<p align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+![TensorFlow Lite](https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+![Edge Impulse](https://img.shields.io/badge/Edge_Impulse-4B6BFB?style=for-the-badge)
+
+![ESP32-CAM](https://img.shields.io/badge/ESP32--CAM-00979D?style=for-the-badge)
+
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-AI-success?style=for-the-badge)
+
+</p>
+
 An AI-powered egg viability detection system developed using **Flutter**, **ESP32-CAM**, **TensorFlow Lite**, and **Edge Impulse**.
 
 This project captures egg images through an ESP32-CAM module and performs local AI inference using a TensorFlow Lite model inside the Flutter mobile application.
