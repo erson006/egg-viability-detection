@@ -22,3 +22,11 @@ The system captures egg images using an ESP32-CAM module, performs inference wit
 Prototype Completed ✅
 
 Documentation in progress...
+
+## 🔒 Source Code Availability
+
+This repository is intended to showcase the project architecture, methodology, and results.
+
+The complete source code, trained AI models, and datasets are not publicly available due to intellectual property considerations.
+
+If you are interested in collaboration, research, or a commercial demonstration, please contact me.
