@@ -150,3 +150,63 @@ The Feature Explorer visualization demonstrates how the extracted image features
 The Data Explorer provides an overview of the labeled dataset used during training and helps verify the quality and distribution of collected samples.
 
 ![Data Explorer](images/data-explorer.png)
+
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+
+A([🥚 Egg])
+
+B[📷 ESP32-CAM<br/>Live Camera Stream]
+
+C[📱 Flutter Mobile Application]
+
+D[🧠 TensorFlow Lite<br/>Float32]
+
+E{Prediction}
+
+F[🟢 Fertilized Egg]
+
+G[⚪ Unfertilized Egg]
+
+H[💡 LED Brightness Control]
+
+I[⚙️ 360° Stepper Motor]
+
+J[📸 Image Capture]
+
+K[📂 Smart Gallery]
+
+L[📝 Automatic File Naming]
+
+M[📐 Stepper Angle Metadata]
+
+N[#️⃣ Incremental Index]
+
+A --> B
+
+B -->|Wi-Fi| C
+
+C --> D
+
+D --> E
+
+E --> F
+
+E --> G
+
+C --> H
+
+C --> I
+
+C --> J
+
+J --> K
+
+K --> L
+
+L --> M
+
+M --> N
+```
