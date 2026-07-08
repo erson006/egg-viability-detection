@@ -102,3 +102,51 @@ The filename contains:
 This prevents duplicate filenames while preserving the capture position of every image.
 
 ![Automatic File Naming](images/file-naming.png)
+
+---
+
+# 🧠 AI Model Performance
+
+The egg viability classification model was trained using **Edge Impulse** with **Transfer Learning** and deployed as a **TensorFlow Lite (Float32)** model for on-device inference in the Flutter application.
+
+The model achieves high classification performance while running entirely on the mobile device without requiring an internet connection.
+
+---
+
+## 📊 Transfer Learning Results
+
+The following metrics summarize the performance of the trained model.
+
+- Accuracy
+- Loss
+- Precision
+- Recall
+- F1 Score
+- ROC AUC
+- Confusion Matrix
+
+![Transfer Learning Results](images/transfer-learning-results.png)
+
+---
+
+## ✅ Model Testing Results
+
+The trained TensorFlow Lite model was evaluated using unseen test images to verify its real-world performance.
+
+![Model Testing Results](images/model-testing-results.png)
+
+---
+
+## 📈 Feature Explorer
+
+The Feature Explorer visualization demonstrates how the extracted image features are grouped by the trained model. A clear separation between classes indicates strong feature learning and improved classification capability.
+
+![Feature Explorer](images/feature-explorer.png)
+
+---
+
+## 📉 Data Explorer
+
+The Data Explorer provides an overview of the labeled dataset used during training and helps verify the quality and distribution of collected samples.
+
+![Data Explorer](images/data-explorer.png)
