@@ -210,3 +210,20 @@ L --> M
 
 M --> N
 ```
+
+---
+
+# 🛠️ Technologies Used
+
+| Category | Technology |
+|----------|------------|
+| Mobile Framework | Flutter |
+| Programming Language | Dart |
+| AI Framework | TensorFlow Lite (Float32) |
+| AI Development Platform | Edge Impulse |
+| Embedded Hardware | ESP32-CAM |
+| Motor Control | 360° Stepper Motor |
+| Lighting System | Adjustable LED |
+| Communication | Wi-Fi |
+| Machine Learning | Transfer Learning |
+| Computer Vision | Image Classification |
