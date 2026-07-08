@@ -16,6 +16,17 @@
 
 </p>
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Core Features](#-core-features)
+- [Mobile Application](#-mobile-application)
+- [AI Model Performance](#-ai-model-performance)
+- [System Architecture](#-system-architecture)
+- [Technologies Used](#️-technologies-used)
+- [Source Code Availability](#-source-code-availability)
+- [Future Improvements](#-future-improvements)
+
 An AI-powered egg viability detection system developed using **Flutter**, **ESP32-CAM**, **TensorFlow Lite**, and **Edge Impulse**.
 
 This project captures egg images through an ESP32-CAM module and performs local AI inference using a TensorFlow Lite model inside the Flutter mobile application.
