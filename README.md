@@ -1,32 +1,44 @@
 # 🥚 Egg Viability Detection System
 
-An AI-powered egg viability detection system developed using ESP32-CAM, Edge Impulse, and Flutter.
+An AI-powered egg viability detection system developed using **Flutter**, **ESP32-CAM**, **TensorFlow Lite**, and **Edge Impulse**.
 
-## Overview
+This project captures egg images through an ESP32-CAM module and performs local AI inference using a TensorFlow Lite model inside the Flutter mobile application.
 
-This project determines whether an incubated egg is viable using computer vision and machine learning.
+The application also provides camera management, LED brightness control, 360° stepper motor control, image gallery management, and automated image capture for egg inspection.
 
-The system captures egg images using an ESP32-CAM module, performs inference with an Edge Impulse model, and displays the prediction in a Flutter mobile application.
+> **Note:** This repository showcases the project architecture, mobile application, and AI performance. The complete source code, trained models, and datasets are maintained in a private repository.
 
-## Technologies
+---
 
-- Flutter
-- Dart
+# ✨ Core Features
+
+## 🤖 Artificial Intelligence
+
+- Egg viability classification using TensorFlow Lite
+- Edge Impulse transfer learning model
+- 99%+ validation accuracy
+- Local AI inference on the mobile device
+- Confusion Matrix
+- Precision, Recall and F1 Score evaluation
+
+## 📱 Mobile Application
+
+- Live ESP32-CAM stream
+- Prediction interface
+- Smart gallery
+- ESP32 IP configuration
+
+## ⚙️ Embedded Hardware
+
 - ESP32-CAM
-- Edge Impulse
-- TensorFlow Lite
-- Python
+- Adjustable LED brightness
+- 360° stepper motor control
+- Single image capture
+- Multi-angle image capture
 
-## Project Status
+## 📂 Dataset Management
 
-Prototype Completed ✅
-
-Documentation in progress...
-
-## 🔒 Source Code Availability
-
-This repository is intended to showcase the project architecture, methodology, and results.
-
-The complete source code, trained AI models, and datasets are not publicly available due to intellectual property considerations.
-
-If you are interested in collaboration, research, or a commercial demonstration, please contact me.
+- Automatic filename indexing
+- Servo angle added to image filename
+- Categorized gallery
+- Automatic image organization
