@@ -76,61 +76,51 @@ The application also provides camera management, LED brightness control, 360° s
 
 The Flutter mobile application is responsible for controlling the hardware, managing image acquisition, and performing on-device AI inference using a TensorFlow Lite (Float32) model.
 
-## 🏠 Main Menu
+<table>
+<tr>
+<td align="center">
+<b>🏠 Main Menu</b><br><br>
+<img src="images/mobile-home.png" width="220">
+</td>
 
-The main dashboard provides quick access to all application modules.
+<td align="center">
+<b>🎛️ Control Center</b><br><br>
+<img src="images/control-center.png" width="220">
+</td>
 
-![Main Menu](images/mobile-home.png)
+<td align="center">
+<b>🌐 ESP32 Settings</b><br><br>
+<img src="images/ip-settings.png" width="220">
+</td>
+</tr>
 
----
+<tr>
+<td align="center">
+<b>💡 LED & 360° Stepper Motor</b><br><br>
+<img src="images/led-stepper-control.png" width="220">
+</td>
 
-## 🎛️ Control Center
+<td align="center">
+<b>🖼️ Smart Gallery</b><br><br>
+<img src="images/gallery.png" width="220">
+</td>
 
-The Control Center is the core of the application. It connects to the ESP32-CAM, loads the TensorFlow Lite model, displays the live camera stream, and manages the image acquisition process.
+<td align="center">
+<b>📝 Automatic File Naming</b><br><br>
+<img src="images/file-naming.png" width="220">
+</td>
+</tr>
+</table>
 
-![Control Center](images/control-center.png)
+### ✨ Key Capabilities
 
----
-
-## 🌐 ESP32 Connection Settings
-
-Users can configure the ESP32-CAM IP address directly from the application, allowing quick connection to different devices.
-
-![ESP32 Settings](images/ip-settings.png)
-
----
-
-## 💡 LED & 360° Stepper Motor Control
-
-The application allows users to adjust LED brightness and control the 360° stepper motor for automated multi-angle image acquisition.
-
-![LED & Stepper Motor](images/led-stepper-control.png)
-
----
-
-## 🖼️ Smart Gallery
-
-Captured images are automatically categorized and stored inside the application for easy access and review.
-
-![Gallery](images/gallery.png)
-
----
-
-## 📝 Automatic File Naming
-
-To simplify dataset management, every captured image is automatically assigned a unique filename.
-
-The filename contains:
-
-- Image name
-- Stepper motor angle
-- Incremental index
-
-This prevents duplicate filenames while preserving the capture position of every image.
-
-![Automatic File Naming](images/file-naming.png)
-
----
+- 📷 Live camera stream from ESP32-CAM
+- 🧠 Local AI inference using TensorFlow Lite (Float32)
+- 💡 Adjustable LED brightness
+- ⚙️ 360° stepper motor control
+- 📸 Single and multi-angle image capture
+- 🗂️ Smart gallery with categorized images
+- 📝 Automatic file naming with angle metadata and incremental indexing
 
 # 🧠 AI Model Performance
 
