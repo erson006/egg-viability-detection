@@ -126,47 +126,70 @@ The Flutter mobile application is responsible for controlling the hardware, mana
 
 The egg viability classification model was trained using **Edge Impulse** with **Transfer Learning** and deployed as a **TensorFlow Lite (Float32)** model for on-device inference in the Flutter application.
 
-The model achieves high classification performance while running entirely on the mobile device without requiring an internet connection.
+The model performs inference entirely on the mobile device without requiring an internet connection, enabling fast and efficient real-time predictions.
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+<b>📊 Transfer Learning Results</b><br><br>
+
+<img src="images/transfer-learning-results.png" width="420">
+
+</td>
+
+<td align="center" width="50%">
+
+<b>✅ Model Testing Results</b><br><br>
+
+<img src="images/model-testing-results.png" width="420">
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>📈 Feature Explorer</b><br><br>
+
+<img src="images/feature-explorer.png" width="420">
+
+</td>
+
+<td align="center">
+
+<b>📉 Data Explorer</b><br><br>
+
+<img src="images/data-explorer.png" width="420">
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 Transfer Learning Results
+## 📋 Performance Summary
 
-The following metrics summarize the performance of the trained model.
-
-- Accuracy
-- Loss
-- Precision
-- Recall
-- F1 Score
-- ROC AUC
-- Confusion Matrix
-
-![Transfer Learning Results](images/transfer-learning-results.png)
+| Metric | Value |
+|---------|------:|
+| Validation Accuracy | **99%+** |
+| Weighted Precision | **0.99** |
+| Weighted Recall | **0.99** |
+| Weighted F1 Score | **0.99** |
+| ROC AUC | **0.99** |
+| Deployment | **TensorFlow Lite (Float32)** |
+| Training Platform | **Edge Impulse** |
 
 ---
 
-## ✅ Model Testing Results
+### 🚀 Highlights
 
-The trained TensorFlow Lite model was evaluated using unseen test images to verify its real-world performance.
-
-![Model Testing Results](images/model-testing-results.png)
-
----
-
-## 📈 Feature Explorer
-
-The Feature Explorer visualization demonstrates how the extracted image features are grouped by the trained model. A clear separation between classes indicates strong feature learning and improved classification capability.
-
-![Feature Explorer](images/feature-explorer.png)
-
----
-
-## 📉 Data Explorer
-
-The Data Explorer provides an overview of the labeled dataset used during training and helps verify the quality and distribution of collected samples.
-
-![Data Explorer](images/data-explorer.png)
+- 🧠 Transfer Learning based image classification
+- 📱 On-device AI inference with TensorFlow Lite (Float32)
+- ⚡ Real-time prediction on the Flutter application
+- 📊 High classification accuracy with strong generalization performance
+- 📈 Visual feature separation using Feature Explorer
+- 📂 Organized dataset validation using Data Explorer
 
 ## 🏗️ System Architecture
 
